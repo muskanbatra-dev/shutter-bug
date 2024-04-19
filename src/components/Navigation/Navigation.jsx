@@ -2,7 +2,6 @@ import React from "react";
 import "./Navigation.css";
 import { HiShoppingCart } from "react-icons/hi";
 import { FaRegHeart } from "react-icons/fa";
-import { FaUser } from "react-icons/fa";
 import logo1 from "../../images/logo1.png";
 import { FaSearch } from "react-icons/fa";
 import { NavLink } from "react-router-dom";

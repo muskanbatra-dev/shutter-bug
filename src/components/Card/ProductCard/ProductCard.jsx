@@ -6,7 +6,7 @@ const ProductCard = ({src, productName, rating, price}) => {
   return (
     <div className="product-card">
         <div className="product-card__imgdiv">
-      <img className="product-card__img" src={src}/>
+      <img className="product-card__img" src={src} alt=""/>
       <NavLink to="/login">
           <FaRegHeart size={20} color="white" />
         </NavLink>

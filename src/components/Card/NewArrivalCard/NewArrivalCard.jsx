@@ -6,7 +6,7 @@ const NewArrivalCard = ({src, collectiontext, collectiondesc}) => {
   
     <div className='newArr_card'>
       
-      <img src={src}/>
+      <img src={src} alt=""/>
      
         
         <div className='newArr_text'>

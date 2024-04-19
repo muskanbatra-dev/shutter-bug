@@ -24,7 +24,7 @@ const Home = () => {
       </section>
 
       <div className="hero-img">
-        <img src={heroImage}/>
+        <img src={heroImage} alt=""/>
       </div>
       <section className="newarrival__section">
         <NewArrivalCard src={filmCamera} collectiontext={"Christmas Collection"} collectiondesc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae ante purus."}/>
