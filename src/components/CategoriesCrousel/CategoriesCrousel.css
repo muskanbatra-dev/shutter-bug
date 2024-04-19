@@ -1,0 +1,27 @@
+.categories__card{
+  margin: aut;
+  cursor: pointer;
+   
+}
+
+
+.categories__img {
+position: relative;
+    width: 70%;
+
+    
+}
+.categories__img img{
+    margin: auto;
+        
+    }
+
+.categories__text{
+    z-index: 1;
+    position: absolute;
+    top:40%;
+    padding: 2px 40%;
+    text-align: center;
+    color: whitesmoke;
+    text-transform: uppercase;
+}

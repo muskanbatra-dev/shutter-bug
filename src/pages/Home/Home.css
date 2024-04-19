@@ -1,0 +1,9 @@
+.categories-section{
+    display: flex;
+   align-items: center;
+   
+}
+.newarrival__section{
+    display: flex;
+    justify-content: space-evenly;
+}

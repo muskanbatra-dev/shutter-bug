@@ -1,0 +1,25 @@
+.newArr_card{
+    display: flex;
+    background-color: var(--secondary-color);
+    width: 40%;
+}
+
+.newArr_text{
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.newArr_card img{
+    width: 50%;
+}
+.newArr_heading{
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+.newArr_title{
+    color: whitesmoke;
+}
+.newArr_desc{
+    color: whitesmoke;
+}
