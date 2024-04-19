@@ -1,7 +1,7 @@
 import React from "react";
 import Mockman from "mockman-js";
 import { Route, Routes } from "react-router-dom";
-import ProductList from "./pages/ProductList/ProductList";
+import Products from "./pages/Products/Products";
 import Wishlist from "./pages/WishList/WishList";
 import Cart from "./pages/Cart/Cart";
 import Home from "./pages/Home/Home";
@@ -10,7 +10,7 @@ const App = () => {
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/products" element={<ProductList />} />
+        <Route path="/products" element={<Products />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/wishlist" element={<Wishlist />} />
         <Route path="/mockman" element={<Mockman />} />

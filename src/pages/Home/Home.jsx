@@ -8,7 +8,7 @@ import mirrorless from "../../images/files/mirrorless/1.png";
 import proffesional from "../../images/files/professional/1.png";
 import heroImage from "../../images/files/compact/1.png";
 import "./Home.css";
-import NewArrivalCard from "../../components/NewArrivalCard/NewArrivalCard";
+import NewArrivalCard from "../../components/Card/NewArrivalCard/NewArrivalCard";
 import Footer from "../../components/Footer/Footer";
 const Home = () => {
   return (
