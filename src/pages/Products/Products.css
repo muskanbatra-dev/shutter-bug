@@ -1,8 +1,58 @@
-body{
+aside{
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+}
+.product__main{
     display: grid;
+    grid-template-columns: 1fr 3fr;
+ 
 }
 
+.product__cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: auto;
+    
+}
 
-aside{
-    background-color: papayawhip;
+.aside__filters{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 1.5rem;
+}
+
+.aside__filters p{
+    color: whitesmoke;
+}
+
+.price__filter p{
+    color: whitesmoke;
+}
+
+.range__values{
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+
+.categories__filter p{
+    color: whitesmoke;
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.ratings__filter p{
+    color: whitesmoke;
+}
+.ratings{
+    display: flex;
+    flex-direction: column;
+}
+.sortby__filter p{
+    color: whitesmoke;
 }

@@ -8,7 +8,7 @@
 }
 :root{
   --primary-color: black;
-  --secondary-color:  rgba(43, 39, 39, 0.775);
+  --secondary-color:  rgba(43, 39, 39, 0.775); 
   --font-color: white;
   --link-hover: silver;
   --padding-TB: 0.8rem;

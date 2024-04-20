@@ -1,22 +1,111 @@
-import React from 'react'
-import Navigation from '../../components/Navigation/Navigation'
-import Footer from '../../components/Footer/Footer'
-import ProductCard from '../../components/Card/ProductCard/ProductCard'
+import React from "react";
+import Navigation from "../../components/Navigation/Navigation";
+import Footer from "../../components/Footer/Footer";
+import ProductCard from "../../components/Card/ProductCard/ProductCard";
 import compact from "../../images/files/compact/3.png";
-import "./Products.css"
+import "./Products.css";
 const Products = () => {
   return (
-    <div>
-      <Navigation/>
-      <aside>
-        <ul>
-          <li>bkjb</li>
-        </ul>
-      </aside>
-      <ProductCard src={compact} productName={"compact"} price={90} rating={90}/>
-      <Footer/>
-    </div>
-  )
-}
+    <div className="product__page">
+      <Navigation />
+      <div className="product__main">
+        <aside className="">
+          <div className="aside__filters">
+            <p>filters</p>
+            <p>clear</p>
+          </div>
 
-export default Products
+          <div className="price__filter">
+            <p>price</p>
+
+            <div className="range__values">
+              <p>78787</p>
+              <p>89898798</p>
+            </div>
+
+            <input type="range" />
+          </div>
+
+          <div className="categories__filter">
+            <p>categories</p>
+
+            <div className="checkbox">
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            <input type="checkbox" />
+            </div>
+            
+          </div>
+          <div className="ratings__filter">
+            <p>ratings</p>
+
+            <div className="ratings">
+            <input type="radio"/>
+            <input type="radio"/>
+            <input type="radio"/>
+            <input type="radio"/>
+            <input type="radio"/>
+            </div>
+            
+          </div>
+
+          <div className="sortby__filter">
+            <p>SortBy</p>
+
+            <div className="ratings">
+            <input type="radio"/>
+            <input type="radio"/>
+            
+            </div>
+            
+          </div>
+        </aside>
+
+        <div className="product__cards">
+          <ProductCard
+            src={compact}
+            productName={"compact"}
+            price={90}
+            rating={90}
+          />
+          <ProductCard
+            src={compact}
+            productName={"compact"}
+            price={90}
+            rating={90}
+          />
+          <ProductCard
+            src={compact}
+            productName={"compact"}
+            price={90}
+            rating={90}
+          />
+          <ProductCard
+            src={compact}
+            productName={"compact"}
+            price={90}
+            rating={90}
+          />
+          <ProductCard
+            src={compact}
+            productName={"compact"}
+            price={90}
+            rating={90}
+          />
+          <ProductCard
+            src={compact}
+            productName={"compact"}
+            price={90}
+            rating={90}
+          />
+        </div>
+      </div>
+
+      <Footer />
+    </div>
+  );
+};
+
+export default Products;
