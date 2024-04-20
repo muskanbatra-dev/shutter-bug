@@ -59,11 +59,11 @@
     padding: 0.25rem 0.15rem;
 }
 
-.header_btn{
+/* .header_btn{
     margin: 0.2rem 2rem;
     border: 2px solid whitesmoke;
-    padding: 0.5em 1em;
-    border-radius: 10px;
+    padding: 0.8em 1.5em;
+    border-radius: 5px;
     font-size: 1rem;
     font-weight: bold;
     background-color: var(--secondary-color);
@@ -74,5 +74,26 @@
 .header_btn:hover {
     background-color: silver;
     color: var(--primary-color);
+} */
+
+.header_btn{
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+    /* margin: 1em; */
+    border: 2px solid gray;
+    padding: 0.8em 1.5em;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    background-color:var(--font-color);
+    color: black;
+    cursor: pointer;
 }
 
+.header_btn:hover {
+    background-color: silver;
+    color: var(--primary-color);
+}

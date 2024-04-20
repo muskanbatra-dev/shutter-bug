@@ -66,39 +66,39 @@ const Products = () => {
         <div className="product__cards">
           <ProductCard
             src={compact}
-            productName={"compact"}
-            price={90}
-            rating={90}
+            productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
+            price={106995}
+            rating={"EMI starts at "}
+          />
+           <ProductCard
+            src={compact}
+            productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
+            price={106995}
+            rating={"EMI starts at "}
+          />
+           <ProductCard
+            src={compact}
+            productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
+            price={106995}
+            rating={"EMI starts at "}
           />
           <ProductCard
             src={compact}
-            productName={"compact"}
-            price={90}
-            rating={90}
+            productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
+            price={106995}
+            rating={"EMI starts at "}
           />
-          <ProductCard
+           <ProductCard
             src={compact}
-            productName={"compact"}
-            price={90}
-            rating={90}
+            productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
+            price={106995}
+            rating={"EMI starts at "}
           />
-          <ProductCard
+           <ProductCard
             src={compact}
-            productName={"compact"}
-            price={90}
-            rating={90}
-          />
-          <ProductCard
-            src={compact}
-            productName={"compact"}
-            price={90}
-            rating={90}
-          />
-          <ProductCard
-            src={compact}
-            productName={"compact"}
-            price={90}
-            rating={90}
+            productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
+            price={106995}
+            rating={"EMI starts at "}
           />
         </div>
       </div>

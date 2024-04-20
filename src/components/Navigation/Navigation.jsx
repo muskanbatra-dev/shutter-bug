@@ -19,7 +19,7 @@ const Navigation = () => {
 
       <div className="header__search">
         <input type="search" />
-        <FaSearch size={20} color="black" />
+        <FaSearch size={24} color="black" />
       </div>
 
       <div className="header__nav">
@@ -28,17 +28,17 @@ const Navigation = () => {
         </NavLink>
         <NavLink to="/wishlist">
           <p>
-            <FaRegHeart size={20} color="white" />
+            <FaRegHeart size={24} color="white" />
           </p>
         </NavLink>
         <NavLink to="/products">
           <p>
-            <FaShop size={20} color="white" />
+            <FaShop size={24} color="white" />
           </p>
         </NavLink>
         <NavLink to="/cart">
           <p>
-            <HiShoppingCart size={20} color="white" />
+            <HiShoppingCart size={24} color="white" />
           </p>
         </NavLink>
       </div>
