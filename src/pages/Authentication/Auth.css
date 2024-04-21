@@ -1,0 +1,14 @@
+.login-form{
+    margin: 1.5rem auto;
+    width: 50%;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-heading{
+    color: var(--font-color); 
+    text-align: center;
+}

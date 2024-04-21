@@ -1,0 +1,27 @@
+
+legend{
+    color: var(--font-color); 
+    
+}
+
+
+.form{
+    width: 40rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 8px;
+    /* background-color: var(--font-color); */
+    padding: 0.8rem 1.5rem;
+    
+    
+}
+
+.form input{
+    height: 100%;
+    width:100% ;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+
+}
