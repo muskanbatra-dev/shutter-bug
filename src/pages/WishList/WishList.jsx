@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../../components/Navigation/Navigation";
 import Footer from "../../components/Footer/Footer";
-import ProductCard from "../../components/Card/ProductCard/ProductCard";
+import ProductCard from "../../components/Card/ProductListCard/ProductListCard";
 import compact from "../../images/files/compact/3.png";
 import "./WishList.css"
 const WishList = () => {

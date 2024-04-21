@@ -10,17 +10,31 @@ import heroImage from "../../images/files/compact/1.png";
 import "./Home.css";
 import NewArrivalCard from "../../components/Card/NewArrivalCard/NewArrivalCard";
 import Footer from "../../components/Footer/Footer";
+import { NavLink } from "react-router-dom";
 const Home = () => {
   return (
     <div>
       <Navigation />
 
       <section className="categories-section">
+      <NavLink to="/productList">
+      <CategoriesCrousel src={compact} text={"compact"} />
+        </NavLink >
+        <NavLink  to="/productList">
         <CategoriesCrousel src={compact} text={"compact"} />
+        </NavLink>
+        <NavLink  to="/productList">
         <CategoriesCrousel src={dslr} text={"dslr"} />
+        </NavLink>
+        <NavLink  to="/productList">
         <CategoriesCrousel src={filmCamera} text={"filmCamera"} />
+        </NavLink>
+        <NavLink  to="/productList">
         <CategoriesCrousel src={mirrorless} text={"Mirrorless"} />
+        </NavLink>
+        <NavLink  to="/productList">
         <CategoriesCrousel src={proffesional} text={"proffesional"} />
+        </NavLink>
       </section>
 
       <div className="hero-img">

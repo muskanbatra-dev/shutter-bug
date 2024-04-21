@@ -1,14 +1,14 @@
 
-legend{
+label{
     color: var(--font-color); 
     
 }
 
 
 .form{
-    width: 40rem;
-    display: flex;
-    gap: 1rem;
+   width: 100%;
+   
+    
     align-items: center;
     border-radius: 8px;
     /* background-color: var(--font-color); */

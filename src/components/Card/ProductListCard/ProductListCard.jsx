@@ -1,8 +1,8 @@
 import React from "react";
 import { FaRegHeart } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
-import "./ProductCard.css"
-const ProductCard = ({src, productName, rating, price}) => {
+import "./ProductListCard.css"
+const ProductListCard = ({src, productName, rating, price}) => {
   return (
     <div className="product-card">
         <div className="product-card__imgdiv">
@@ -32,4 +32,4 @@ const ProductCard = ({src, productName, rating, price}) => {
   );
 };
 
-export default ProductCard;
+export default ProductListCard;

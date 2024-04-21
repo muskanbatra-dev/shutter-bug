@@ -1,12 +1,10 @@
 import React from "react";
 import "./FormInputText.css"
-const FormInputText = ({ placeholder, onChange, type, value, legend }) => {
+const FormInputText = ({ placeholder, onChange, type, value ,label}) => {
   return (
-    <fieldset>
-      <legend>
-        <p>{legend}</p>
-      </legend>
+   
       <div className="form">
+        <label htmlFor="">{label}</label>
         <input
           placeholder={placeholder}
           onChange={onChange}
@@ -14,7 +12,7 @@ const FormInputText = ({ placeholder, onChange, type, value, legend }) => {
           value={value}
         />
       </div>
-    </fieldset>
+   
   );
 };
 

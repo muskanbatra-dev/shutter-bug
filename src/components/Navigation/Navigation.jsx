@@ -31,7 +31,7 @@ const Navigation = () => {
             <FaRegHeart size={24} color="white" />
           </p>
         </NavLink>
-        <NavLink to="/products">
+        <NavLink to="/productList">
           <p>
             <FaShop size={24} color="white" />
           </p>

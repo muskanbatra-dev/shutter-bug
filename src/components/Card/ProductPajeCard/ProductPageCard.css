@@ -1,22 +1,37 @@
-.login-form{
-    margin: 3rem auto;
-    width: 35%;
+.checkout-card{
     background-color: var(--secondary-color);
+    margin: 1rem;
+    width: 50%;
+    position: relative;
+    padding: var(--padding-TB) var(--padding-SIDE);
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 2rem;
-    min-height: 40rem;
    
 }
 
-.form-heading{
-    color: var(--font-color); 
-    text-align: center;
+.checkout-card img{
+    width: 40%;
 }
 
-.secondary_btn{
+.checkout-card__details{
+    padding: 20px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+.checkout-card__name{
+    color: var(--font-color);
+}
+
+.checkout-card__rating{
+    color: var(--font-color);
+}
+.checkout-card__price{
+    color: var(--font-color);
+}
+
+.removecart_btn{
     white-space: nowrap;
     width: 100%;
     text-align: center;
@@ -33,18 +48,18 @@
     cursor: pointer;
 }
 
-.secondary_btn:hover {
+.removecart_btn:hover {
     background-color: silver;
     color: var(--primary-color);
 }
 
-.primary_btn{
+.movewishlist_btn{
     white-space: nowrap;
     width: 100%;
     text-align: center;
     /* margin: 1em; */
     border: 2px solid gray;
-    padding: 0.8em 5em;
+    padding: 0.8em 8em;
     border-radius: 5px;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -55,18 +70,7 @@
     cursor: pointer;
 }
 
-.primary_btn:hover {
+.movewishlist_btn:hover {
     background-color: silver;
     color: var(--primary-color);
-}
-
-.forgotpwd__div{
-    display: flex;
-}
-
-.forgotpwd__div p{
-    color: var(--font-color);
-}
-.forgotpwd__div input{
-    color: var(--font-color);
 }

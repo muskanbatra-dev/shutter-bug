@@ -2,36 +2,49 @@ import React from 'react'
 import { NavLink } from "react-router-dom";
 import "./Auth.css"
 import FormInputText from '../../components/FormInputText/FormInputText'
+import Navigation from "../../components/Navigation/Navigation";
+import Footer from "../../components/Footer/Footer";
 const Login = () => {
   return (
+    <div>
+      <Navigation/>
     <main className='login-form'>
     <form>
       <p className='form-heading'>Login</p>
 
       <FormInputText
-        legend={"Full Name"}
-        placeholder={"John Doe"}
+        label={"Email"}
+        placeholder={"Johndoe@gmail.com"}
+        type={"email"}
         // value={fullName}
       />
        <FormInputText
-        legend={"Full Name"}
-        placeholder={"John Doe"}
+        label={"password"}
+        placeholder={"*******"}
+        type={"password"}
         // value={fullName}
       />
 
-      <div>
+      <div className='forgotpwd__div'>
       <input type="checkbox" /> Remember me
         <p>Forgot Password?</p>
       </div>
-      <NavLink to="/login">
-          <button className="removecart_btn">Remove From Cart</button>
+      <div className='btn'>
+        <NavLink to="/login">
+          <button className="primary_btn">Login</button>
         </NavLink>
         <NavLink to="/login">
-          <button className="movewishlist_btn">Move to Wishlist</button>
+          <button className="secondary_btn">Guest Login</button>
         </NavLink>
-
+        </div>
+        <NavLink to="/sign-up">
+        <p>Forgot Password?</p>
+        </NavLink>
+       
     </form>
   </main>
+  <Footer/>
+  </div>
   )
 }
 

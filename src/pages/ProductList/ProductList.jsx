@@ -1,9 +1,11 @@
 import React from "react";
 import Navigation from "../../components/Navigation/Navigation";
 import Footer from "../../components/Footer/Footer";
-import ProductCard from "../../components/Card/ProductCard/ProductCard";
+import ProductListCard from "../../components/Card/ProductListCard/ProductListCard";
 import compact from "../../images/files/compact/3.png";
-import "./Products.css";
+import { NavLink } from "react-router-dom";
+import "./ProductList.css";
+
 const Products = () => {
   return (
     <div className="product__page">
@@ -30,76 +32,84 @@ const Products = () => {
             <p>categories</p>
 
             <div className="checkbox">
-            <input type="checkbox" />
-            <input type="checkbox" />
-            <input type="checkbox" />
-            <input type="checkbox" />
-            <input type="checkbox" />
+              <input type="checkbox" />
+              <input type="checkbox" />
+              <input type="checkbox" />
+              <input type="checkbox" />
+              <input type="checkbox" />
             </div>
-            
           </div>
           <div className="ratings__filter">
             <p>ratings</p>
 
             <div className="ratings">
-            <input type="radio"/>
-            <input type="radio"/>
-            <input type="radio"/>
-            <input type="radio"/>
-            <input type="radio"/>
+              <input type="radio" />
+              <input type="radio" />
+              <input type="radio" />
+              <input type="radio" />
+              <input type="radio" />
             </div>
-            
           </div>
 
           <div className="sortby__filter">
             <p>SortBy</p>
 
             <div className="ratings">
-            <input type="radio"/>
-            <input type="radio"/>
-            
+              <input type="radio" />
+              <input type="radio" />
             </div>
-            
           </div>
         </aside>
 
         <div className="product__cards">
-          <ProductCard
+          <NavLink to="/product">
+            <ProductListCard
+              src={compact}
+              productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
+              price={106995}
+              rating={"EMI starts at "}
+            />
+          </NavLink>
+          <NavLink to="/product">
+          <ProductListCard
             src={compact}
             productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
             price={106995}
             rating={"EMI starts at "}
           />
-           <ProductCard
+          </NavLink>
+          <NavLink to="/product">
+          <ProductListCard
             src={compact}
             productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
             price={106995}
             rating={"EMI starts at "}
           />
-           <ProductCard
+          </NavLink>
+          <NavLink to="/product">
+          <ProductListCard
             src={compact}
             productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
             price={106995}
             rating={"EMI starts at "}
           />
-          <ProductCard
+          </NavLink>
+          <NavLink to="/product">
+          <ProductListCard
             src={compact}
             productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
             price={106995}
             rating={"EMI starts at "}
           />
-           <ProductCard
+          </NavLink>
+          <NavLink to="/product">
+          <ProductListCard
             src={compact}
             productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
             price={106995}
             rating={"EMI starts at "}
           />
-           <ProductCard
-            src={compact}
-            productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
-            price={106995}
-            rating={"EMI starts at "}
-          />
+          </NavLink>
         </div>
       </div>
 
