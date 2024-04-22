@@ -38,7 +38,7 @@ const Login = () => {
         </NavLink>
         </div>
         <NavLink to="/sign-up">
-        <p>Forgot Password?</p>
+        <p>Create New Account?</p>
         </NavLink>
        
     </form>
