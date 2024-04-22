@@ -16,47 +16,94 @@ const Products = () => {
             <p>filters</p>
             <p>clear</p>
           </div>
+          <div className="all__filters">
+            <div className="price__filter">
+              <p>price</p>
 
-          <div className="price__filter">
-            <p>price</p>
+              <div className="range__values">
+                <p>78787</p>
+                <p>89898798</p>
+              </div>
 
-            <div className="range__values">
-              <p>78787</p>
-              <p>89898798</p>
+              <input type="range" />
             </div>
 
-            <input type="range" />
-          </div>
+            <div className="categories__filter">
+              <p>categories</p>
 
-          <div className="categories__filter">
-            <p>categories</p>
-
-            <div className="checkbox">
-              <input type="checkbox" />
-              <input type="checkbox" />
-              <input type="checkbox" />
-              <input type="checkbox" />
-              <input type="checkbox" />
+              <div className="checkbox">
+                <label htmlFor="">
+                  <input type="checkbox" />
+                  compact
+                </label>
+                <label htmlFor="">
+                  <input type="checkbox" />
+                  DSLR
+                </label>
+                <label htmlFor="">
+                  <input type="checkbox" />
+                  film camera
+                </label>
+                <label htmlFor="">
+                  <input type="checkbox" />
+                  Mirrorless
+                </label>
+                <label htmlFor="">
+                  <input type="checkbox" />
+                  Proffesional
+                </label>
+              </div>
             </div>
-          </div>
-          <div className="ratings__filter">
-            <p>ratings</p>
+            <div className="ratings__filter">
+              <p>ratings</p>
 
-            <div className="ratings">
-              <input type="radio" />
-              <input type="radio" />
-              <input type="radio" />
-              <input type="radio" />
-              <input type="radio" />
+              <div className="ratings">
+                <label htmlFor="">
+                  <div>
+                    <span className="rating-star">★★★★★</span>
+                  </div>
+                  <input type="radio" />
+                </label>
+                <label htmlFor="">
+                  <div>
+                    <span className="rating-star">★★★★</span>
+                  </div>
+                  <input type="radio" />
+                </label>
+                <label htmlFor="">
+                  <div>
+                    <span className="rating-star">★★★</span>
+                  </div>
+                  <input type="radio" />
+                </label>
+                <label htmlFor="">
+                  <div>
+                    <span className="rating-star">★★</span>
+                  </div>
+                  <input type="radio" />
+                </label>
+                <label htmlFor="">
+                  <div>
+                    <span className="rating-star">★</span>
+                  </div>
+                  <input type="radio" />
+                </label>
+              </div>
             </div>
-          </div>
 
-          <div className="sortby__filter">
-            <p>SortBy</p>
+            <div className="sortby__filter">
+              <p>SortBy</p>
 
-            <div className="ratings">
-              <input type="radio" />
-              <input type="radio" />
+              <div className="ratings">
+                <label htmlFor="">
+                  <input type="radio" />
+                  High to Low
+                </label>
+                <label htmlFor="">
+                  <input type="radio" />
+                  Low to high
+                </label>
+              </div>
             </div>
           </div>
         </aside>
@@ -71,44 +118,44 @@ const Products = () => {
             />
           </NavLink>
           <NavLink to="/product">
-          <ProductListCard
-            src={compact}
-            productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
-            price={106995}
-            rating={"EMI starts at "}
-          />
+            <ProductListCard
+              src={compact}
+              productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
+              price={106995}
+              rating={"EMI starts at "}
+            />
           </NavLink>
           <NavLink to="/product">
-          <ProductListCard
-            src={compact}
-            productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
-            price={106995}
-            rating={"EMI starts at "}
-          />
+            <ProductListCard
+              src={compact}
+              productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
+              price={106995}
+              rating={"EMI starts at "}
+            />
           </NavLink>
           <NavLink to="/product">
-          <ProductListCard
-            src={compact}
-            productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
-            price={106995}
-            rating={"EMI starts at "}
-          />
+            <ProductListCard
+              src={compact}
+              productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
+              price={106995}
+              rating={"EMI starts at "}
+            />
           </NavLink>
           <NavLink to="/product">
-          <ProductListCard
-            src={compact}
-            productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
-            price={106995}
-            rating={"EMI starts at "}
-          />
+            <ProductListCard
+              src={compact}
+              productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
+              price={106995}
+              rating={"EMI starts at "}
+            />
           </NavLink>
           <NavLink to="/product">
-          <ProductListCard
-            src={compact}
-            productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
-            price={106995}
-            rating={"EMI starts at "}
-          />
+            <ProductListCard
+              src={compact}
+              productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
+              price={106995}
+              rating={"EMI starts at "}
+            />
           </NavLink>
         </div>
       </div>

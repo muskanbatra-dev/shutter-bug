@@ -17,9 +17,7 @@ const Home = () => {
       <Navigation />
 
       <section className="categories-section">
-      <NavLink to="/productList">
-      <CategoriesCrousel src={compact} text={"compact"} />
-        </NavLink >
+    
         <NavLink  to="/productList">
         <CategoriesCrousel src={compact} text={"compact"} />
         </NavLink>

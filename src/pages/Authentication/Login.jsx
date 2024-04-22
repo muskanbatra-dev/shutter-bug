@@ -26,7 +26,10 @@ const Login = () => {
       />
 
       <div className='forgotpwd__div'>
-      <input type="checkbox" /> Remember me
+        <label htmlFor="">
+        <input type="checkbox" /> Remember me
+        </label>
+      
         <p>Forgot Password?</p>
       </div>
       <div className='btn'>

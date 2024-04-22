@@ -24,6 +24,15 @@ aside{
     padding: 1.5rem;
 }
 
+
+.all__filters{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 1.5rem;
+}
+
 .aside__filters p{
     color: whitesmoke;
 }
