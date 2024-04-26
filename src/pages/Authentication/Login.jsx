@@ -81,7 +81,7 @@ const Login = () => {
           <button className="secondary_btn">Guest Login</button>
         </NavLink>
         </div>
-        <NavLink to="/sign-up">
+        <NavLink to="/sign-up" className="create__new__btn">
         <p>Create New Account?</p>
         </NavLink>
        

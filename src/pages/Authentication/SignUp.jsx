@@ -58,7 +58,7 @@ const SignUp = () => {
         <form>
           <p className="form-heading">SignUp</p>
           <FormInputText
-            label={"fulltName"}
+            label={"fullName"}
             placeholder={"John"}
             type={"text"}
             value={fullName}
@@ -94,9 +94,11 @@ const SignUp = () => {
               setconfirmPassword(e.target.value.trim())
             }}
           />
+          <div className="check-input">
          <label htmlFor="">
         <input type="checkbox" /> I accept all terms and conditions
         </label>
+        </div>
           <div className="btn">
             <NavLink >
               <button className="primary_btn" onClick={()=>{
