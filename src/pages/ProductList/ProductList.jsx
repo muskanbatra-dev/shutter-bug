@@ -18,14 +18,14 @@ const Products = () => {
           </div>
           <div className="all__filters">
             <div className="price__filter">
-              <p>price</p>
+              <p className="price__filter__heading" >price</p>
 
               <div className="range__values">
                 <p>78787</p>
                 <p>89898798</p>
               </div>
 
-              <input type="range" />
+              <input type="range" className="range"/>
             </div>
 
             <div className="categories__filter">

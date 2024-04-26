@@ -2,6 +2,7 @@ aside{
     background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
+    margin: 1rem;
 }
 .product__main{
     display: grid;
@@ -22,12 +23,19 @@ aside{
     justify-content: space-between;
     cursor: pointer;
     padding: 1.5rem;
+    
 }
-
+.aside__filters p{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
 
 .all__filters{
     display: flex;
     flex-direction: column;
+    gap:3rem;
     justify-content: space-between;
     cursor: pointer;
     padding: 1.5rem;
@@ -35,10 +43,20 @@ aside{
 
 .aside__filters p{
     color: whitesmoke;
+    
+}
+.price__filter{
+    color: whitesmoke;
+    font-size: 1.6rem;
+    font-weight: 400;
 }
 
-.price__filter p{
+
+.price__filter__heading{
     color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: capitalize;
 }
 
 .range__values{
@@ -47,21 +65,57 @@ aside{
     color: whitesmoke;
 }
 
+.range{
+    width: 100%;
+}
+label{
+    padding: 0.2rem;
+}
+.range__values p{
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    
+}
+.categories__filter{
+    color: whitesmoke;
+    font-size: 1.6rem;
+    font-weight: 400;
+ 
+}
 .categories__filter p{
     color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+   
 }
 .checkbox{
     display: flex;
     flex-direction: column;
 }
-
+.ratings__filter{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 600;
+}
 .ratings__filter p{
     color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: capitalize;
 }
 .ratings{
     display: flex;
     flex-direction: column;
 }
+.sortby__filter{
+    color: whitesmoke;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
 .sortby__filter p{
     color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 700;
 }

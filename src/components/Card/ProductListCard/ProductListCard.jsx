@@ -17,7 +17,7 @@ const ProductListCard = ({src, productName, rating, price}) => {
       <div className="product-card__details">
       <p className="product-card__name" >{productName}</p>
       <p className="product-card__price" >{price}</p>
-      <p className="product-card__rating" >{rating}</p>
+    
       
       </div>
       <div>
