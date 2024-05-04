@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Navigation from "../../components/Navigation/Navigation";
 import Footer from "../../components/Footer/Footer";
 import ProductListCard from "../../components/Card/ProductListCard/ProductListCard";
-import compact from "../../images/files/compact/3.png";
+
 import { NavLink } from "react-router-dom";
 import "./ProductList.css";
-
+import { useSelector } from "react-redux";
 const Products = () => {
+  const product = useSelector((state) => state.product);
+  const [prodData, setProdData] = useState([]);
+  useEffect(() => {
+    console.log(product.product, "pdpdpd");
+    setProdData(product.product);
+  });
   return (
     <div className="product__page">
       <Navigation />
@@ -18,14 +24,14 @@ const Products = () => {
           </div>
           <div className="all__filters">
             <div className="price__filter">
-              <p className="price__filter__heading" >price</p>
+              <p className="price__filter__heading">price</p>
 
               <div className="range__values">
                 <p>78787</p>
                 <p>89898798</p>
               </div>
 
-              <input type="range" className="range"/>
+              <input type="range" className="range" />
             </div>
 
             <div className="categories__filter">
@@ -109,7 +115,22 @@ const Products = () => {
         </aside>
 
         <div className="product__cards">
-          <NavLink to="/product">
+          {
+            prodData.map((item)=>{
+              return(
+                <NavLink to="/product">
+            <ProductListCard
+              src={item?.img}
+              productName={item?.name}
+              price={item?.price}
+              
+            />
+          </NavLink>
+              )
+             
+            })
+          }
+          {/* <NavLink to="/product">
             <ProductListCard
               src={compact}
               productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
@@ -156,7 +177,7 @@ const Products = () => {
               price={106995}
               rating={"EMI starts at "}
             />
-          </NavLink>
+          </NavLink> */}
         </div>
       </div>
 

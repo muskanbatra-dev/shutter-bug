@@ -1,6 +1,5 @@
 import { v4 as uuid } from "uuid";
 
-
 /**
  * Product Database can be added here.
  * You can add products of your wish with different attributes
@@ -9,298 +8,298 @@ import { v4 as uuid } from "uuid";
 export const products = [
   {
     _id: uuid(),
-    name: "Colorful WMN 01",
-    img: "https://i.postimg.cc/JnDRJ2Q7/Colorful-WMN-1.webp",
-    price: 100,
-    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    category: "colorful",
+    name: "PANASONIC LUMIX DC-FZ1000 II DIGITAL SLR CAMERA BODY ONLY",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714733084/ri8yxrduxmcjzwy84jes.png",
+    price: 100000,
+    details:
+      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    category: "DSLR",
     rating: 4.5,
-    gender: "women"
+    
   },
   {
     _id: uuid(),
-    name: "Colorful WMN 02",
-    img: "https://i.postimg.cc/3rGKxzRn/Colorful-WMN-2.webp",
-    price: 110,
+    name: "NIKON D7500 FX-FORMAT DIGITAL SLR CAMERA BODY ONLY",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714733377/ggufzenujgwea3esntbd.png",
+    price: 310000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "colorful",
+    category:  "DSLR",
     rating: 3.8,
-    gender: "women"
+   
   },
   {
     _id: uuid(),
-    name: "Colorful WMN 03",
-    img: "https://i.postimg.cc/MH1x3f4h/Colorful-WMN-3.webp",
-    price: 120,
+    name: "CANON EOS 2000D 24.1 DIGITAL SLR CAMERA (BLACK) ",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714733524/hg3easuxipv5myhp5zzy.png",
+    price: 120000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "colorful",
+    category:  "DSLR",
     rating: 3.5,
-    gender: "women"
+    
   },
   {
     _id: uuid(),
-    name: "Funky WMN 01",
-    img: "https://i.postimg.cc/Z5wmQS7K/Funky-WMN-1.webp",
-    price: 130,
+    name: "CANON EOS 90D DIGITAL SLR CAMERA (BODY ONLY)",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714733615/sgqpyqloxiarfnrobnvo.png",
+    price: 130000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "funky",
+    category:  "DSLR",
     rating: 2.9,
-    gender: "women"
+    
   },
   {
     _id: uuid(),
-    name: "Funky WMN 02",
-    img: "https://i.postimg.cc/KvrxnLtT/Funky-WMN-2.webp",
-    price: 140,
+    name: "SONY ALPHA A7S III MIRRORLESS DIGITAL CAMERA",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714733694/r51f8tc1h1docrgegwly.png",
+    price: 140000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "funky",
+    category: "MIRRORLESS",
     rating: 4.2,
-    gender: "women"
+    
   },
   {
     _id: uuid(),
-    name: "Funky WMN 03",
-    img: "https://i.postimg.cc/kgJ9w4yp/Funky-WMN-3.webp",
-    price: 150,
+    name: "NIKON Z6 MIRRORLESS DIGITAL CAMERA (BODY ONLY)",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714733839/q2lp8ey361rd76jf4it3.png",
+    price: 150000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "funky",
+    category: "MIRRORLESS",
     rating: 4.8,
-    gender: "women"
+    
   },
   {
     _id: uuid(),
-    name: "Fashiony WMN 01",
-    img: "https://i.postimg.cc/zX1qbpH5/Fashiony-WMN-1.webp",
-    price: 165,
+    name: "CANON EOS 250D DIGITAL SLR CAMERA (BODY ONLY)",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714733615/sgqpyqloxiarfnrobnvo.png",
+    price: 165000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "fashiony",
+    category: "DSLR",
     rating: 3.1,
-    gender: "women"
+    
   },
   {
     _id: uuid(),
-    name: "Fashiony WMN 02",
-    img: "https://i.postimg.cc/VNT8YFPx/Fashiony-WMN-2.webp",
-    price: 192,
+    name: "PANASONIC LUMIX DC-GH5 MIRRORLESS  DIGITAL CAMERA (BODY ONLY)",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714734128/qctdezck84sja4dgn7tl.png",
+    price: 192000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "fashiony",
+    category: "MIRRORLESS",
     rating: 2.9,
-    gender: "women"
+ 
   },
   {
     _id: uuid(),
-    name: "Fashiony WMN 03",
-    img: "https://i.postimg.cc/6QTKJmgV/Fashiony-WMN-3.webp",
-    price: 173,
+    name: "CANON EOS 60R MIRRORLESS CAMERA (BODY ONLY)",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714734207/q7fcprzxueanssnust1v.png",
+    price: 50000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "fashiony",
+    category: "MIRRORLESS",
     rating: 4.1,
-    gender: "women"
+ 
   },
   {
     _id: uuid(),
-    name: "Modern WMN 01",
-    img: "https://i.postimg.cc/GtnnDh2z/Modern-WMN-1.webp",
-    price: 212,
+    name: "FUJIFILM INSTAX MINI 40 NEO CLASSIC PHOTO CAMERA INSTANT BLACK",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714736308/sbxyycdblekfk0aomk6g.png",
+    price: 200000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "modern",
+    category: "FILM CAMERA",
     rating: 4.2,
-    gender: "women"
+   
   },
   {
     _id: uuid(),
-    name: "Modern WMN 02",
-    img: "https://i.postimg.cc/sf5rrS6L/Modern-WMN-2.webp",
-    price: 195,
+    name: "CANON EOS 250D DIGITAL SLR CAMERA (BODY ONLY)",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714733615/sgqpyqloxiarfnrobnvo.png",
+    price: 390000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "modern",
+    category: "DSLR",
     rating: 3.6,
-    gender: "women"
   },
   {
     _id: uuid(),
-    name: "Modern MN 01",
-    img: "https://i.postimg.cc/DZXKmb28/Modern-MN-1.webp",
-    price: 210,
+    name: "PANASONIC LUMIX S5 II PHOTO CAMERA MIRRORLESS FULL FRAME 24.2MP",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714734128/qctdezck84sja4dgn7tl.png",
+    price: 250000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "modern",
+    category: "MIRRORLESS",
     rating: 2.5,
-    gender: "men"
+    
   },
   {
     _id: uuid(),
-    name: "Retro WMN 01",
-    img: "https://i.postimg.cc/g22F87z9/Retro-WMN-1.webp",
-    price: 224,
+    name: "PANASONIC LUMIX S5 II PHOTO CAMERA MIRRORLESS FULL FRAME 24.2MP",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714734128/qctdezck84sja4dgn7tl.png",
+    price: 225000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "retro",
+    category: "MIRRORLESS",
     rating: 4.3,
-    gender: "women"
+    
   },
   {
     _id: uuid(),
-    name: "Retro WMN 02",
-    img: "https://i.postimg.cc/L8QdTV5J/Retro-WMN-2.webp",
-    price: 238,
+    name: " CANON EOS M50 II PHOTO CAMERA MIRRORLESS ",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714734207/q7fcprzxueanssnust1v.png",
+    price: 235000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "retro",
+    category: "MIRRORLESS",
     rating: 4.4,
-    gender: "women"
+    
   },
   {
     _id: uuid(),
-    name: "Retro WMN 03",
-    img: "https://i.postimg.cc/RV9zVF2Z/Retro-WMN-3.webp",
-    price: 243,
+    name: "FUJIFILM INSTAX WIDE 300 PHOTO CAMERA INSTANT",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714737013/ww3zvid5cruk7vs7bikq.png",
+    price: 240000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "retro",
+    category: "FILM CAMERA",
     rating: 3.7,
-    gender: "women"
+    
   },
   {
     _id: uuid(),
-    name: "Retro WMN 04",
-    img: "https://i.postimg.cc/Bvjrw1PM/Retro-WMN-4.webp",
-    price: 257,
+    name: " FUJIFILM INSTAX MINI 40 PHOTO CAMERA INSTANT BLACK",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714736959/ev4ayhebbjtgo7oap5tz.png",
+    price: 255000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "retro",
+    category: "FILM CAMERA",
     rating: 4.1,
-    gender: "women"
+   
   },
   {
     _id: uuid(),
-    name: "Retro WMN 05",
-    img: "https://i.postimg.cc/nckfsxtY/Retro-WMN-5.webp",
-    price: 261,
+    name: "SONY RX10 V COMPACT CAMERA (BODY ONLY)",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714737681/x7fvcuvy4cehr4duklsy.png",
+    price: 260000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "retro",
+    category: "COMPACT",
     rating: 2.8,
-    gender: "women"
+   
   },
   {
     _id: uuid(),
-    name: "Retro WMN 06",
-    img: "https://i.postimg.cc/fb1G4TxZ/Retro-WMN-6.webp",
-    price: 264,
+    name: "NIKON D5600 COMPACT CAMERA (BODY ONLY)",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714737900/hw5zxcqdygtgji5ojhte.png",
+    price: 30000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "retro",
+    category: "COMPACT",
     rating: 4.8,
-    gender: "women"
+  
   },
   {
     _id: uuid(),
-    name: "Sleek MN 01",
-    img: "https://i.postimg.cc/Y9gJtK3F/Sleek-MN-1.webp",
-    price: 211,
+    name: "SONY CYBER-SHOT DSC-RX10 IV COMPACT CAMERA",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714737972/zfhz143b7z3ufqqevdyl.png",
+    price: 215000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "sleek",
+    category: "COMPACT",
     rating: 4.5,
-    gender: "men"
+    
   },
   {
     _id: uuid(),
-    name: "Sleek WMN 01",
-    img: "https://i.postimg.cc/rsk7mnnP/Sleek-WMN-1.webp",
-    price: 234,
+    name: "FUJIFILM INSTAX MINI EVO HYBRID PHOTO CAMERA INSTANT",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714738514/wqnxb2lsaqvm0yonr3q6.png",
+    price: 230000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "sleek",
+    category: "FILM CAMERA",
     rating: 3.7,
-    gender: "women"
+    
   },
   {
     _id: uuid(),
-    name: "Sleek WMN 02",
-    img: "https://i.postimg.cc/NFkSr6Zf/Sleek-WMN-2.webp",
-    price: 283,
+    name: "CANON EOS R6 MARK II DIGITAL SLR CAMERA",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714734207/q7fcprzxueanssnust1v.png",
+    price: 280000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "sleek",
+    category: "DSLR",
     rating: 5,
-    gender: "women"
+    
   },
   {
     _id: uuid(),
-    name: "Stylish WMN 01",
-    img: "https://i.postimg.cc/SNmwbPzX/Stylish-WMN-1.webp",
-    price: 290,
+    name: "SONY ALPHA A7S IV MIRRORLESS DIGITAL CAMERA",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714733694/r51f8tc1h1docrgegwly.png",
+    price: 290000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "stylish",
+    category: "MIRRORLESS",
     rating: 5,
-    gender: "women"
+    
   },
   {
     _id: uuid(),
-    name: "Stylish WMN 02",
-    img: "https://i.postimg.cc/wjGPJT4J/Stylish-WMN-2.webp",
-    price: 194,
+    name: "NIKON D7500 FX-FORMAT DIGITAL SLR CAMERA BODY ONLY",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714733377/ggufzenujgwea3esntbd.png",
+    price: 190000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "stylish",
+    category:  "PROFFESIONAL",
     rating: 4.3,
-    gender: "women"
+   
   },
   {
     _id: uuid(),
-    name: "Stylish MN 01",
-    img: "https://i.postimg.cc/9XdvS2z5/Stylish-MN-1.webp",
-    price: 278,
+    name: "PANASONIC LUMIX DMC-FZ300K DIGITAL SLR CAMERA",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714733084/ri8yxrduxmcjzwy84jes.png",
+    price: 27500,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "stylish",
+    category:  "PROFFESIONAL",
     rating: 2.9,
-    gender: "men"
+    
   },
   {
     _id: uuid(),
-    name: "Trendy WMN 01",
-    img: "https://i.postimg.cc/QdtwHWmh/Trendy-WMN-1.webp",
-    price: 284,
+    name: "NIKON D8500 FX-FORMAT II COMPACT CAMERA (BODY ONLY)",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714733839/q2lp8ey361rd76jf4it3.png",
+    price: 280000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "trendy",
+    category: "COMPACT",
     rating: 3.9,
-    gender: "women"
+    
   },
   {
     _id: uuid(),
-    name: "Trendy WMN 02",
-    img: "https://i.postimg.cc/q76FGVWF/Trendy-WMN-2.webp",
-    price: 199,
+    name: "CANON EOS M50 MARK II MIRRORLESS DIGITAL CAMERA WITH 15-45MM LENS (BLACK)",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714734207/q7fcprzxueanssnust1v.png",
+    price: 250000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "trendy",
+    category: "MIRRORLESS",
     rating: 3.2,
-    gender: "women"
+    
   },
   {
     _id: uuid(),
-    name: "Trendy MN 01",
-    img: "https://i.postimg.cc/SNVHSGWg/Trendy-MN-1.webp",
-    price: 202,
+    name: "PANASONIC LUMIX G7 4K MIRRORLESS OPTICAL ZOOM CAMERA",
+    img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714734128/qctdezck84sja4dgn7tl.png",
+    price: 200000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "trendy",
+    category: "MIRRORLESS",
     rating: 2.9,
-    gender: "men"
-  }
+    
+  },
 ];
