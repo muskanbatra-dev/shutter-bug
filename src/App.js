@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect } from "react";
 import Mockman from "mockman-js";
 import { Route, Routes } from "react-router-dom";
