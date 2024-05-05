@@ -15,7 +15,6 @@ export const products = [
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "DSLR",
     rating: 4.5,
-    
   },
   {
     _id: uuid(),
@@ -24,9 +23,8 @@ export const products = [
     price: 310000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category:  "DSLR",
+    category: "DSLR",
     rating: 3.8,
-   
   },
   {
     _id: uuid(),
@@ -35,9 +33,8 @@ export const products = [
     price: 120000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category:  "DSLR",
+    category: "DSLR",
     rating: 3.5,
-    
   },
   {
     _id: uuid(),
@@ -46,9 +43,8 @@ export const products = [
     price: 130000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category:  "DSLR",
+    category: "DSLR",
     rating: 2.9,
-    
   },
   {
     _id: uuid(),
@@ -59,7 +55,6 @@ export const products = [
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "MIRRORLESS",
     rating: 4.2,
-    
   },
   {
     _id: uuid(),
@@ -70,7 +65,6 @@ export const products = [
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "MIRRORLESS",
     rating: 4.8,
-    
   },
   {
     _id: uuid(),
@@ -81,7 +75,6 @@ export const products = [
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "DSLR",
     rating: 3.1,
-    
   },
   {
     _id: uuid(),
@@ -92,7 +85,6 @@ export const products = [
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "MIRRORLESS",
     rating: 2.9,
- 
   },
   {
     _id: uuid(),
@@ -103,7 +95,6 @@ export const products = [
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "MIRRORLESS",
     rating: 4.1,
- 
   },
   {
     _id: uuid(),
@@ -114,7 +105,6 @@ export const products = [
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "FILM CAMERA",
     rating: 4.2,
-   
   },
   {
     _id: uuid(),
@@ -135,7 +125,6 @@ export const products = [
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "MIRRORLESS",
     rating: 2.5,
-    
   },
   {
     _id: uuid(),
@@ -146,18 +135,16 @@ export const products = [
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "MIRRORLESS",
     rating: 4.3,
-    
   },
   {
     _id: uuid(),
-    name: " CANON EOS M50 II PHOTO CAMERA MIRRORLESS ",
+    name: " CANON EOS M50 II PHOTO CAMERA MIRRORLESS (BODY ONLY)",
     img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714734207/q7fcprzxueanssnust1v.png",
     price: 235000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "MIRRORLESS",
     rating: 4.4,
-    
   },
   {
     _id: uuid(),
@@ -168,7 +155,6 @@ export const products = [
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "FILM CAMERA",
     rating: 3.7,
-    
   },
   {
     _id: uuid(),
@@ -179,29 +165,26 @@ export const products = [
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "FILM CAMERA",
     rating: 4.1,
-   
   },
   {
     _id: uuid(),
-    name: "SONY RX10 V COMPACT CAMERA (BODY ONLY)",
+    name: "SONY RX10 V COMPACT PHOTO CAMERA (BODY ONLY)",
     img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714737681/x7fvcuvy4cehr4duklsy.png",
     price: 260000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "COMPACT",
     rating: 2.8,
-   
   },
   {
     _id: uuid(),
-    name: "NIKON D5600 COMPACT CAMERA (BODY ONLY)",
+    name: "NIKON D5600 COMPACT PHOTO CAMERA (BODY ONLY)",
     img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714737900/hw5zxcqdygtgji5ojhte.png",
     price: 30000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "COMPACT",
     rating: 4.8,
-  
   },
   {
     _id: uuid(),
@@ -212,7 +195,6 @@ export const products = [
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "COMPACT",
     rating: 4.5,
-    
   },
   {
     _id: uuid(),
@@ -223,18 +205,16 @@ export const products = [
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "FILM CAMERA",
     rating: 3.7,
-    
   },
   {
     _id: uuid(),
-    name: "CANON EOS R6 MARK II DIGITAL SLR CAMERA",
+    name: "CANON EOS R6 MARK II DIGITAL SLR CAMERA (BODY ONLY)",
     img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714734207/q7fcprzxueanssnust1v.png",
     price: 280000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "DSLR",
     rating: 5,
-    
   },
   {
     _id: uuid(),
@@ -245,7 +225,6 @@ export const products = [
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "MIRRORLESS",
     rating: 5,
-    
   },
   {
     _id: uuid(),
@@ -254,9 +233,8 @@ export const products = [
     price: 190000,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category:  "PROFFESIONAL",
+    category: "PROFFESIONAL",
     rating: 4.3,
-   
   },
   {
     _id: uuid(),
@@ -265,9 +243,8 @@ export const products = [
     price: 27500,
     details:
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category:  "PROFFESIONAL",
+    category: "PROFFESIONAL",
     rating: 2.9,
-    
   },
   {
     _id: uuid(),
@@ -278,7 +255,6 @@ export const products = [
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "COMPACT",
     rating: 3.9,
-    
   },
   {
     _id: uuid(),
@@ -289,7 +265,6 @@ export const products = [
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "MIRRORLESS",
     rating: 3.2,
-    
   },
   {
     _id: uuid(),
@@ -300,6 +275,5 @@ export const products = [
       "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "MIRRORLESS",
     rating: 2.9,
-    
   },
 ];
