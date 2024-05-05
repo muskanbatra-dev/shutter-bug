@@ -12,7 +12,7 @@ const Products = () => {
   useEffect(() => {
     console.log(product.product, "pdpdpd");
     setProdData(product.product);
-  });
+  },[product.product]);
   return (
     <div className="product__page">
       <Navigation />
