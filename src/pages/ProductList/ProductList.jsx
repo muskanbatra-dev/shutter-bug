@@ -133,54 +133,7 @@ const Products = () => {
              
             })
           }
-          {/* <NavLink to="/product">
-            <ProductListCard
-              src={compact}
-              productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
-              price={106995}
-              rating={"EMI starts at "}
-            />
-          </NavLink>
-          <NavLink to="/product">
-            <ProductListCard
-              src={compact}
-              productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
-              price={106995}
-              rating={"EMI starts at "}
-            />
-          </NavLink>
-          <NavLink to="/product">
-            <ProductListCard
-              src={compact}
-              productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
-              price={106995}
-              rating={"EMI starts at "}
-            />
-          </NavLink>
-          <NavLink to="/product">
-            <ProductListCard
-              src={compact}
-              productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
-              price={106995}
-              rating={"EMI starts at "}
-            />
-          </NavLink>
-          <NavLink to="/product">
-            <ProductListCard
-              src={compact}
-              productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
-              price={106995}
-              rating={"EMI starts at "}
-            />
-          </NavLink>
-          <NavLink to="/product">
-            <ProductListCard
-              src={compact}
-              productName={"CANON EOS 90D DSLR CAMERA (BODY ONLY)"}
-              price={106995}
-              rating={"EMI starts at "}
-            />
-          </NavLink> */}
+          
 
         </div>
         </div>

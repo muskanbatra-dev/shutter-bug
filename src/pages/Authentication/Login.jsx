@@ -34,7 +34,7 @@ const Login = () => {
         dispatch(SET_USER(response.data.foundUser))
       });
     } catch (error) {
-      
+      console.log(error)
     }
     
   };
