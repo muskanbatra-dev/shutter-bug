@@ -10,6 +10,12 @@ aside{
  
 }
 
+.product_page{
+    display: flex;
+}
+.product__page__heading{
+    color: whitesmoke;
+}
 .product__cards{
     display: grid;
     grid-template-columns: repeat(3,1fr);

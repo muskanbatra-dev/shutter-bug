@@ -113,8 +113,11 @@ const Products = () => {
             </div>
           </div>
         </aside>
-
+        <div className="product__page">
+        <p className="product__page__heading">Showing All Categories
+(Showing 27 products)</p>
         <div className="product__cards">
+        
           {
             prodData.map((item)=>{
               return(
@@ -178,6 +181,8 @@ const Products = () => {
               rating={"EMI starts at "}
             />
           </NavLink> */}
+
+        </div>
         </div>
       </div>
 
