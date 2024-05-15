@@ -92,6 +92,7 @@ label{
     font-weight: 400;
  
 }
+
 .categories__filter p{
     color: whitesmoke;
     font-size: 2rem;
@@ -102,6 +103,10 @@ label{
 .checkbox{
     display: flex;
     flex-direction: column;
+}
+
+.checkbox__list{
+   list-style-type: none;
 }
 .ratings__filter{
     color: whitesmoke;
@@ -118,6 +123,8 @@ label{
     display: flex;
     flex-direction: column;
 }
+
+
 .sortby__filter{
     color: whitesmoke;
     font-size: 1.6rem;

@@ -95,7 +95,7 @@ const handlePriceSortClick = (val)=>{
               <div className="checkbox">
               {categoryList.map((itemCat) => {
             return (
-              <li key={itemCat}>
+              <li key={itemCat} className="checkbox__list">
                 <input
                   type="checkbox"
                   name={`${itemCat} checkbox`}
