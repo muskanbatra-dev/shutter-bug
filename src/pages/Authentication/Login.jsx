@@ -15,6 +15,33 @@ const Login = () => {
   const [password,setPassword]= useState("")
   
   const dispatch = useDispatch()
+  const testLogin = () => {
+    try {
+      
+      axios
+      .post(
+        "/api/auth/login",
+        {  email: "muskanBatr123@gmail.com",
+    password: "muskanbatra"},
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      )
+      .then((response) => {
+        console.log(response)
+        dispatch(SET_TOKEN(response.data.encodedToken))
+        dispatch(SET_LOGIN(true))
+        dispatch(SET_USER({  email: "muskanBatr123@gmail.com",
+    password: "muskanbatra"}))
+    toast.success(`Welcome,Guest User`);
+      });
+    } catch (error) {
+      console.log(error)
+    }
+    
+  }
   const loginHandler = async () => {
     try {
       if (!EMAIL_REGEX.test(email)) {
@@ -84,13 +111,15 @@ const Login = () => {
         <p>Forgot Password?</p>
       </div>
       <div className='btn'>
-        <NavLink to="/login">
+        <NavLink to="/productList">
           <button className="primary_btn" onClick={()=>{
             loginHandler()
           }}>Login</button>
         </NavLink>
-        <NavLink to="/login">
-          <button className="secondary_btn">Guest Login</button>
+        <NavLink to="/productList">
+          <button  onClick={()=>{
+            testLogin()
+          }}className="secondary_btn">Guest Login</button>
         </NavLink>
         </div>
         <NavLink to="/sign-up" className="create__new__btn">

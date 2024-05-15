@@ -47,7 +47,7 @@ const SignUp = () => {
         .then((response) => {
           console.log(response);
           localStorage.setItem("token", response.data.encodedToken);
-          toast.success(`Welcome, ${response.data.createdUser.userName}`);
+          toast.success(`Welcome, ${response.data.createdUser.fullName}`);
         });
     } catch (error) {
       toast.error("Something went wrong.");
