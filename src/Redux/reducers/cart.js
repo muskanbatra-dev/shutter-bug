@@ -11,17 +11,6 @@ const cart = createSlice({
     SET_CART: (state, action) => {
       state.cartItems = action.payload;
     },
-
-    // ADD_TO_CART: (state, action) => {
-    //     const id = state.cartItems.find(({})=>)
-    //   state.cartItems.push(action.payload);
-    // },
-
-    // REMOVE_FROM_CART: (state, action) => {
-    //   state.cartItems.slice(action.payload);
-    // },
-
-    // UPDATE_CART: () => {},
   },
 });
 

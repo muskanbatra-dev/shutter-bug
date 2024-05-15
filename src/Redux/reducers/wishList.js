@@ -8,7 +8,7 @@ const wishlist = createSlice({
   name: "wishlist",
   initialState,
   reducers: {
-    SET_WISLIST: (state, action) => {
+    SET_WISHLIST: (state, action) => {
       state.wishlist = action.payload;
     },
   },
