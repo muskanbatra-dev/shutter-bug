@@ -111,12 +111,12 @@ const Login = () => {
         <p>Forgot Password?</p>
       </div>
       <div className='btn'>
-        <NavLink to="/productList">
+        <NavLink >
           <button className="primary_btn" onClick={()=>{
             loginHandler()
           }}>Login</button>
         </NavLink>
-        <NavLink to="/productList">
+        <NavLink >
           <button  onClick={()=>{
             testLogin()
           }}className="secondary_btn">Guest Login</button>
