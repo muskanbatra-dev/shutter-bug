@@ -15,7 +15,12 @@ ReactDOM.render(
   <BrowserRouter>
     <Provider store={store}>
       <App />
-      <ToastContainer />
+      <ToastContainer
+        theme="dark"
+        autoClose={1200}
+        limit="2"
+        position="bottom-left"
+      />
     </Provider>
   </BrowserRouter>,
   document.getElementById("root")

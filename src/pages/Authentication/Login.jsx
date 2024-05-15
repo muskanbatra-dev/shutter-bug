@@ -7,12 +7,24 @@ import Footer from "../../components/Footer/Footer";
 import axios from "axios"
 import {SET_TOKEN , SET_LOGIN, SET_USER} from "../../Redux/reducers/auth"
 import { useDispatch } from 'react-redux';
+import { toast } from "react-toastify";
+const EMAIL_REGEX = /^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/;
+
 const Login = () => {
   const [email,setEmail]= useState("")
   const [password,setPassword]= useState("")
+  
   const dispatch = useDispatch()
   const loginHandler = async () => {
     try {
+      if (!EMAIL_REGEX.test(email)) {
+        toast.info("Please enter a valid email address");
+        return;
+      }
+      if (password.length === 0) {
+        toast.info("Password can't be blank");
+        return;
+      }
       axios
       .post(
         "/api/auth/login",
@@ -82,7 +94,7 @@ const Login = () => {
         </NavLink>
         </div>
         <NavLink to="/sign-up" className="create__new__btn">
-        <p>Create New Account?</p>
+        <p>Create New Account ❯</p>
         </NavLink>
        
     </form>
