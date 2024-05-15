@@ -15,7 +15,7 @@ const Login = () => {
   const [password,setPassword]= useState("")
   
   const dispatch = useDispatch()
-  const testLogin =  async() => {
+  const testLogin = () => {
     try {
       
       axios
@@ -33,12 +33,12 @@ const Login = () => {
         console.log(response)
         dispatch(SET_TOKEN(response.data.encodedToken))
         dispatch(SET_LOGIN(true))
-        dispatch(SET_USER({  email: "muskanBatr123@gmail.com",
-    password: "muskanbatra"}))
+        dispatch(SET_USER(response.data.foundUser))
     toast.success(`Welcome,Guest User`);
       });
     } catch (error) {
       console.log(error)
+      toast.error(error)
     }
     
   }
