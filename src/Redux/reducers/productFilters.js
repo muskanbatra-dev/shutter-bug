@@ -34,11 +34,11 @@ const productFilters = createSlice({
       state.sort = action.payload;
     },
     CLEAR: (state) => {
-      (state.price = 0),
-        (state.category = []),
-        (state.rating = 0),
-        (state.search = ""),
-        (state.sort = "");
+      state.price = 0;
+      state.category = [];
+      state.rating = 0;
+      state.search = "";
+      state.sort = "";
     },
   },
 });
