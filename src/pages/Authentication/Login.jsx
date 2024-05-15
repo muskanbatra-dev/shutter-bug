@@ -116,7 +116,7 @@ const Login = () => {
             loginHandler()
           }}>Login</button>
         </NavLink>
-        <NavLink >
+        <NavLink to="/productList">
           <button  onClick={()=>{
             testLogin()
           }}className="secondary_btn">Guest Login</button>
