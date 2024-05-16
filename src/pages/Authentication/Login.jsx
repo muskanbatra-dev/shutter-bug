@@ -15,12 +15,14 @@ const Login = () => {
   const [password, setPassword] = useState("");
 
   const dispatch = useDispatch();
+  const guestUser =  { email: "muskanBatr123@gmail.com", password: "muskanbatra" }
   const testLogin = () => {
     try {
       axios
         .post(
           "/api/auth/login",
-          { email: "muskanBatr123@gmail.com", password: "muskanbatra" },
+          JSON.stringify(guestUser)
+         ,
           {
             headers: {
               "Content-Type": "application/json",
@@ -35,7 +37,7 @@ const Login = () => {
           toast.success(`Welcome,Guest User`);
         });
     } catch (error) {
-      console.log(error);
+      console.log(error.response.data);
       toast.error(error);
     }
   };
@@ -52,10 +54,10 @@ const Login = () => {
       axios
         .post(
           "/api/auth/login",
-          {
+          JSON.stringify( {
             email,
             password,
-          },
+          }),
           {
             headers: {
               "Content-Type": "application/json",
