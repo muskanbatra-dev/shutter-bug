@@ -258,7 +258,7 @@ export const products = [
   },
   {
     _id: uuid(),
-    name: "CANON EOS M50 MARK II MIRRORLESS DIGITAL CAMERA WITH 15-45MM LENS (BLACK)",
+    name: "CANON EOS M50 MARK II MIRRORLESS CAMERA (BLACK)",
     img: "https://res.cloudinary.com/dojt2ovwz/image/upload/v1714734207/q7fcprzxueanssnust1v.png",
     price: 250000,
     details:
