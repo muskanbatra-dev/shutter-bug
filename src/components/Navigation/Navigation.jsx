@@ -40,6 +40,27 @@ const Navigation = () => {
           </p>
         </NavLink>
       </div>
+
+      <div className="header__nav_mobile">
+        <NavLink to="/login">
+          <button className="header_btn">Login</button>
+        </NavLink>
+        <NavLink to="/wishlist">
+          <p>
+         Wishlist
+          </p>
+        </NavLink>
+        <NavLink to="/productList">
+          <p>
+          Products
+          </p>
+        </NavLink>
+        <NavLink to="/cart">
+          <p>
+          Cart
+          </p>
+        </NavLink>
+      </div>
     </header>
   );
 };

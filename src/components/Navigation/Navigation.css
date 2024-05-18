@@ -93,7 +93,6 @@
     cursor: pointer;
 }
 
-.header_btn:hover {
-    background-color: silver;
-    color: var(--primary-color);
+.header__nav_mobile{
+    display: none;
 }
