@@ -1,11 +1,9 @@
 import React from "react";
 import "./Navigation.css";
-import { HiShoppingCart } from "react-icons/hi";
-import { FaRegHeart } from "react-icons/fa";
 import logo1 from "../../images/logo1.png";
 import { FaSearch } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
-import { FaShop } from "react-icons/fa6";
+
 const Navigation = () => {
   return (
     <header className="header">
@@ -28,17 +26,17 @@ const Navigation = () => {
         </NavLink>
         <NavLink to="/wishlist">
           <p>
-            <FaRegHeart size={24} color="white" />
+         <img alt="" src="https://res.cloudinary.com/dojt2ovwz/image/upload/v1716026721/tf9rvfch2qops9boyzfn.png"/>
           </p>
         </NavLink>
         <NavLink to="/productList">
           <p>
-            <FaShop size={24} color="white" />
+          <img alt="" src="https://res.cloudinary.com/dojt2ovwz/image/upload/v1716026619/ehfz8ezxwnhcvxw7huj8.png"/>
           </p>
         </NavLink>
         <NavLink to="/cart">
           <p>
-            <HiShoppingCart size={24} color="white" />
+          <img alt="" src="https://res.cloudinary.com/dojt2ovwz/image/upload/v1716025360/j14l4pytljivdccawjta.png"/>
           </p>
         </NavLink>
       </div>

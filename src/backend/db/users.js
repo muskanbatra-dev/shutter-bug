@@ -9,11 +9,23 @@ import { formatDate } from "../utils/authUtils";
 export const users = [
   {
     _id: uuid(),
-    firstName: "Muskan",
-    lastName: "Batra",
-    email: "muskanBatr123@gmail.com",
-    password: "muskanbatra",
+    firstName: "Vivek",
+    lastName: "Bhatt",
+    email: "vivekbhatt07@gmail.com",
+    password: "system32",
     createdAt: formatDate(),
     updatedAt: formatDate(),
+    address: [
+      {
+        _id: uuid(),
+        addressFormName: "Vivek Bhatt",
+        addressFormNumber: "9975558910",
+        addressFormPin: "263153",
+        addressFormCity: "Rudrapur",
+        addressFormAddress: "6, Alliance",
+        addressFormAlternateNumber: "9546721547",
+        addressFormState: "Uttarakhand",
+      },
+    ],
   },
 ];

@@ -5,7 +5,7 @@ import ProductListCard from "../../components/Card/ProductListCard/ProductListCa
 import { NavLink } from "react-router-dom";
 import "./ProductList.css";
 import { useSelector , useDispatch} from "react-redux";
-import {REMOVE_CATEGORY , ADD_CATEGORY, RATING , SORT_FILTER, PRICE_FILTER} from "../../Redux/reducers/productFilters";
+import {REMOVE_CATEGORY , ADD_CATEGORY, RATING , SORT_FILTER, PRICE_FILTER, CLEAR} from "../../Redux/reducers/productFilters";
 
 const ProductList = () => {
   const dispatch = useDispatch()
@@ -63,6 +63,10 @@ const handleCategoryClick = (category ) => {
 const handlePriceSortClick = (val)=>{
   dispatch(SORT_FILTER(val))
 }
+
+const handleClearFilters = (val) =>{
+ dispatch(CLEAR())
+}
   return (
     <div className="product__page">
       <Navigation />
@@ -70,7 +74,13 @@ const handlePriceSortClick = (val)=>{
         <aside className="">
           <div className="aside__filters">
             <p>filters</p>
+            <NavLink  onClick={()=>{
+              handleClearFilters()
+            }}>
             <p>clear</p>
+                </NavLink>
+           
+            
           </div>
           <div className="all__filters">
             <div className="price__filter">
@@ -163,9 +173,7 @@ const handlePriceSortClick = (val)=>{
           </div>
         </aside>
         <div className="product__page">
-          <p className="product__page__heading">
-            Showing All Categories (Showing 27 products)
-          </p>
+          
           <div className="product__cards">
             {prodDb.map((item) => {
               return (
